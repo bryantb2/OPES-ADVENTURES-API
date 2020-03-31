@@ -8,7 +8,7 @@ router.get('/json', async (req,res) => {
         "summary": "Blockchain for the Venturous Soul",
         "website": "https://www.opesadventures.com/",
         "icon": "http://www.opesadventures.com/branding/icon.png",
-        "producer_name": "opesadventures",
+        "producer_name": "adventures",
         "org": {
             "org_name": "OPES ADVENTURES",
             "email": "opesadventures@gmail.com",

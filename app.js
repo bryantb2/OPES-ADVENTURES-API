@@ -8,11 +8,10 @@ const app = express();
 const infoRouter = require('./routes/infoRoute');
 const brandingRouter = require('./routes/brandingRoute');
 
-
 // INCLUDE MIDDLE-WARES 
 app.use(express.json());
 app.use(cors({
-    origin: (process.env.DEV_STATUS === "Dev" ? process.env.DEV_ORIGIN : process.env.PRODUCTION_ORIGIN)
+    origin: process.env.DEV_STATUS === "PRODUCTION" ? process.env.PRODUCTION_ORIGIN : process.env.DEV_ORIGIN
 }));
 app.use(express.static('public'));
 
