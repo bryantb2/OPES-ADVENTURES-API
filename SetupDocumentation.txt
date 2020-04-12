@@ -53,3 +53,23 @@ are essentially just telling the programming language that you want to store thi
 -- since the import and export structure for the modules is already in place, all you have to do is save the changes to the file
 
 -- add, commit, and push changes to server. Herkou will auto-integrate the changes on the web.
+
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+TESTING CHANGES TO THE JSON FILE:
+
+-- open up a terminal at the top level of this project
+
+-- type "npm start"
+
+(the console will spit out a number, most likely 3001, that corresponds to the port your test server will run on
+
+-- go to a web browser and type "http://localhost:<your port number>/info/json"
+
+-- If you see an error in the console or a "cannot connect" or "error 404" in the web browser, your JSON file is being parsed incorrectly.
+
+(this means you messed up curly braces, array brackets, ect.)
+
+-- use an online JSON validator to test the body and make sure everything is correct and working
