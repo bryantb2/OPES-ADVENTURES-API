@@ -3,6 +3,8 @@
 
 ALWAYS FIRST:
 
+-- git clone <link to repo>
+
 -- git pull
 
 Make your changes:
@@ -45,6 +47,9 @@ CHANGING THE JSON IN THE OPES ADVENTURES SERVER:
 
 -- go to the "public" folder, which contains a file named "nodeJSON.js"
 
+-- copy your new JSON structure to the right side of the equals sign on line 1. In programming, this is called a variable assignment, and you
+are essentially just telling the programming language that you want to store this entire JSON structure as a constant named "nodeJSON".
 
+-- since the import and export structure for the modules is already in place, all you have to do is save the changes to the file
 
--- 
+-- add, commit, and push changes to server. Herkou will auto-integrate the changes on the web.
