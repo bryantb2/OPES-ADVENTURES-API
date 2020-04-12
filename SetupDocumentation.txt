@@ -1,0 +1,50 @@
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+ALWAYS FIRST:
+
+-- git pull
+
+Make your changes:
+
+-- git add . 
+
+(makes github track all new changes - in whatever editor you want)
+
+-- git commit -m "<your message>"
+
+(enter your changes into your local repository)
+
+-- git push
+
+(pushing your changes to remote AKA github servers)
+
+
+SETTING UP YOUR DEV ENVIRONMENT: 
+
+-- NOTE: React, Angular, Vue, and Node/Express JS (we are using express for the OPES server project) requires the Node JS runtime environment package
+
+-- To start, open a global terminal window and type "node -v". If you get an error, the runtime is not installed; if it is installed then you will
+see a version number
+
+-- If node is NOT installed, go to this link: https://nodejs.org/en/ and download the appropriate installer. Restart your PC once everything is installed
+onto your local system.
+
+-- Finally, we need to check for the NPM package. Again, make sure a global terminal window is opened and type "npm -v". If you get a number, the package
+is installed. If you don't get a version number, go to this link: https://www.npmjs.com/ and install NPM. Restart your PC once this process is completed.
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+
+CHANGING THE JSON IN THE OPES ADVENTURES SERVER:
+
+-- clone the repo
+
+-- make sure it is up to date by pulling
+
+-- go to the "public" folder, which contains a file named "nodeJSON.js"
+
+
+
+-- 
