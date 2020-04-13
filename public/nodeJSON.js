@@ -5,6 +5,7 @@ const NodeJSON = {
     "display_name": "OPES Adventures",
     "website": "https://www.opesadventures.com",
     "summary": "Blockchain for the Venturous Soul",
+    "title": "OPES Adventures",
     "pledge_to_opes_ecosystem": "Blockchain for the Venturous Soul",
     "email": "opesadventures@protonmail.com",
     "branding":{
